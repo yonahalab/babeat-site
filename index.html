@@ -102,6 +102,14 @@
       color: var(--primary);
       text-decoration: none;
       letter-spacing: -0.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-logo-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
     }
     .nav-links {
       display: flex;
@@ -465,7 +473,7 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="nav-inner">
-      <a href="#" class="nav-logo">Babeat</a>
+      <a href="#" class="nav-logo"><img src="images/app-icon.png" alt="Babeat" class="nav-logo-icon">Babeat</a>
       <ul class="nav-links">
         <li><a href="#screenshots">Screenshots</a></li>
         <li><a href="#features">Features</a></li>
